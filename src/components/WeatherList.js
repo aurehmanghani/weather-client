@@ -44,7 +44,7 @@ const WeatherList = (props) => {
                                 <div className="col"><span className="badge rounded-pill bg-primary text-white">{weather.wind.speed}</span></div>
                                 <div className="w-100"></div>
                                 <div className="col text-secondary">Polar Coords</div>
-                                <div className="col"><span className="badge rounded-pill bg-primary text-white">{weather.coord.lon},{weather.coord.lat}</span></div>
+                                <div className="col"><span className="badge rounded-pill bg-primary text-white">{weather.coord.lat},{weather.coord.lon}</span></div>
                             </div>
                         </div>
                     </div>
